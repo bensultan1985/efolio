@@ -14,6 +14,7 @@ let i3 = document.getElementById('i3');
 let phone = document.getElementById('phone');
 
 const openContact = (win) => {
+    if (resume.className == 'resume') resume.className = '';
     projectsButton.className = 'unselected';
     contactButton.className = 'unselected';
     resumeButton.className = 'unselected';
