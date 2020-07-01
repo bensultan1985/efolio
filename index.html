@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" type ="text/css" href ="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Sultan's Projects</title>
+</head>
+<body>
+    <center>
+    <div id="title"><h1><span id="bs">Benjamin Sultan</span> <span id="se">Software Developer</span></h1></div>
+    <div id="imgblock">
+        <img src="blueimg3.jpg" id="i1"
+        onmouseover="this.src='img3.jpg'"
+        onmouseout="this.src='blueimg3.jpg'" class="profimg">
+        <img src="blueimg1.jpg" id="i2"
+        onmouseover="this.src='img1.jpg'"
+        onmouseout="this.src='blueimg1.jpg'" class="profimg">
+        <img src="blueimg4.jpg" id="i3"
+        onmouseover="this.src='img4.jpg'"
+        onmouseout="this.src='blueimg4.jpg'" class="profimg hideif">
+        <!-- <img src="img2.jpg" class="profimg"> -->
+    </div>
+<div id="buttondiv">
+    <button id="resumebutton" class="selected">Resume</button>
+    <button id="projectsbutton" class="unselected">Projects</button>
+    <button id="contactbutton" class="unselected">Contact</button>
+</div>
+</center>
+    <div id="resume" style="display: block">
+        <h4>Resume</h4>
+        <h5 class="resume-section">
+            <p class="resumetitles">Educational Background:</p>
+            <ul>
+                <li>B.A. Psychology - Purchase College 2008</li>
+                <li>M.S. Education - Sarah Lawrence College 2011</li>
+              </ul>
+            <p class="resumetitles">Skills:</p>
+            <ul>
+                <li>Strong knowledge of Javascript and Object Oriented Programming concepts.</li>
+                <li>Excellent understanding of HTML and CSS and DOM manipulation using Javascript.</li>
+                <li>Experience with the React. Basic knowledge of Redux.</li>
+                <li>Ability to create and maintain SQL and NoSQL databases.</li>
+                <li>Ability to implement Express and make back-end API calls.</li>
+                <li>Experience creating and running test scripts with Jest.</li>
+                <li>Intermediate knowledge of algorithms and data structures.</li>
+                <li>Ability to create user-friendly full-stack applications.</li>
+              </ul>
+
+              <p class="resumetitles">Other Work Experience:</p>
+
+              <ul>
+                  <li>2015-2019 Teacher at Le Lycee Francais de Los Angeles</li>
+                  <li>2015 Production Assistant (p/t) at Left/Right Productions</li>
+                  <li>2015 Freelance Video Producer (p/t) at Various Companies</li>
+                  <li>2015 Sound Engineer (p/t) at Harvey Presents</li>
+                  <li>2013-2014 Teacher at P.S. 311 Lucero School</li>
+                  <li>2011-2012 Teacher at Sigsbee Charter School</li>
+                  <li>2005 Merchandising Intern at Walt Disney World</li>
+                </ul>
+  
+
+        </h5>
+    </div>
+    <div id="projects" style="display: none">
+        <div id="wiserapp" class="appitem">
+        <h4>Wiser --- click to try!</h4>
+        <img src="app1.png" class="appimg">
+        <h5>A social network and database for organizing and submitting wisdom.
+            <br><br>Elements:
+            <ul>
+                <li>vanilla Javascript</li>
+                <li>Firebase (NoSQL) to store user data and wisdom</li>
+                <li>OAuth security</li>
+                <li>JQuery</li>
+            </ul>
+        </h5>
+        </div>
+        <div id="trumplibsapp" class="appitem">
+        <h4>TrumpLibs  --- click to try!</h4>
+        <img src="app2.png" class="appimg">
+        <h5>A generator that automatically turns real New York Times summaries into Madlibs; refreshes daily.
+        <br>
+        <br>
+        Elements:
+        <ul>
+            <li>vanilla Javascript</li>
+            <li>Express for back-end</li>
+            <li>Makes secure calls to NYTimes API</li>
+        </ul>
+    </h5>
+    </div>
+    <div id="classypostitapp" class="appitem">
+        <h4>Classy Post-It Pad  --- click to try!</h4>
+        <img src="app3.png" class="appimg">
+        <h5>A very simple, yet elegant electronic version of Post-It notes.<br>
+        <br>
+            Elements:
+        <ul>
+            <li>React</li>
+            <li>Jest for testing</li>
+            <li>local storage (coming soon)</li>
+        </ul>
+    </h5>
+        </div>
+    </div>
+    <div id="contact" style="display: none">
+        <h4>Contact Benjamin</h4>
+        <center>
+        <h5 style="font-weight: 100; font-size: 18px"><span id="phone">click here to reveal phone number</span>
+            <br>
+            <br>
+            email: bensultan1985@gmail.com
+        </h5>
+    </center>
+    </div>
+
+
+
+
+
+    <!-- <h1>Ben Sultan's Projects</h1>
+    <iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="100%"
+    height="650px"
+    max-height="700px"
+    src="links.html">
+</iframe> -->
+
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>
