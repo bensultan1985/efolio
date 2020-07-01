@@ -1,3 +1,6 @@
+body {
+}
+
 html {
     overflow: -moz-scrollbars-vertical; 
     overflow-y: scroll;
@@ -22,7 +25,7 @@ body {
     border-color: #4c99af;
     background: #4c99af1f;
     color: #4c99af;
-    font-size: 18px;
+    font-size: 20px;
     outline: 0;
 }
 
@@ -49,7 +52,7 @@ body {
     border: solid;
     border-width: 4px;
     border-color: #4c99af;
-    font-size: 18px;
+    font-size: 20px;
     border-width: 4px;
     background-color: #4c99af;
     border-color: #4c99af;
@@ -250,7 +253,32 @@ background: linear-gradient(90deg, rgba(164,203,214,0) 0%, rgba(76,153,175,1) 50
     .hideif {
         display: none !important;
     }
+
+    #se {
+        left: -160px !important;
+    }
+
+    #bs {
+        right: -25px !important;
+    }
+    button {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        max-width: 100px !important;
+    }
+
+    .appitem {
+        max-width: 320px;
+        background-color: rgb(213, 232, 238);
+    }
+    .appimg {
+        max-width: 290px;
+    }
+    .profimg {
+        max-height: 148px;
+    }
 }
+
 
 #se {
     position: relative;
@@ -273,4 +301,9 @@ background: linear-gradient(90deg, rgba(164,203,214,0) 0%, rgba(76,153,175,1) 50
     margin-top: 30px;
     background-color: white;
     border: none;
+}
+
+.continue {
+    position: relative;
+    top: -4px;
 }
